@@ -1,0 +1,28 @@
+\documentclass[10pt]{letter}
+
+\usepackage{lipsum} % for dummy text
+\usepackage{graphicx} % for images
+\usepackage{hyperref} % for hyperlinks
+\usepackage[utf8]{inputenc} % for special characters
+\usepackage[british]{babel} % for language
+\usepackage[scale=0.75]{geometry} % for page layout
+
+% use sans serif font
+\renewcommand{\familydefault}{\sfdefault}
+
+\signature{\bf Mika Senghaas}
+\address{{\bf Mika Senghaas}\\ Faste Batteri Vej 102, 2mf \\ 2330 Copenhagen S}
+
+\longindentation=0pt % no indentation for the closing
+\begin{document}
+\begin{letter} {{\bf Recipient Name} \\ {Address Line 1} \\ {Adress Line 2}}
+
+\opening{To Whom It May Concern,}
+
+% 2 paragraphs dummy text
+\lipsum[1-2]
+
+\closing{Kind regards,}
+
+\end{letter}
+\end{document}
