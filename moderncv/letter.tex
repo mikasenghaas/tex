@@ -1,0 +1,60 @@
+\documentclass[10pt,a4paper,sans]{moderncv}
+
+% ------------------------------------------------------------------------------
+% THEME
+% ------------------------------------------------------------------------------
+\moderncvstyle{classic}
+\moderncvcolor{blue}
+
+% theme options: % 'casual', 'classic', 'banking', 'oldstyle' and 'fancy'
+% color options: % 'black', 'blue', 'burgundy', 'green', 'grey', 'orange',
+% 'purple' and 'red'
+
+% ------------------------------------------------------------------------------
+% PACKAGES
+% ------------------------------------------------------------------------------
+\usepackage{lipsum}
+\usepackage[utf8]{inputenc}
+\usepackage[scale=0.75]{geometry}
+
+% ------------------------------------------------------------------------------
+% PERSONAL DATA
+% ------------------------------------------------------------------------------
+\name{Mika}{Senghaas}
+% \address{Faste Batteri Vej 102, 2mf}{2300 Copenhagen S}{}
+% \phone[mobile]{+45 60 74 04 77}
+% \homepage{mikasenghaas.de}
+\email{mail@mikasenghaas.de}
+% \social[linkedin]{mikasenghaas}
+% \social[twitter]{mikasenghaas}
+% \social[github]{mikasenghaas}
+% \extrainfo{additional information}
+% \photo[64pt][0.4pt]{picture}
+% \quote{Some quote}
+
+% ------------------------------------------------------------------------------
+% SETTINGS
+% ------------------------------------------------------------------------------
+%\renewcommand{\familydefault}{\sfdefault}
+%\nopagenumbers{}
+
+% ------------------------------------------------------------------------------
+% DOCUMENT
+% ------------------------------------------------------------------------------
+\begin{document}
+
+\recipient{Recipient Name}{Address Line 1 \\ Address Line 2}
+\date{\today}
+\opening{To Whom It May Concern,}
+
+\makelettertitle
+
+% start writing here
+\lipsum[1-3]
+
+\closing{Yours sincerely, }
+\enclosure[Attached]{List of Attached Documents}
+
+\makeletterclosing
+\end{document}
+
